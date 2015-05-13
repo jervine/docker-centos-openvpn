@@ -10,4 +10,7 @@ RUN yum install -y openvpn easy-rsa
 RUN yum update -y
 RUN yum clean all
 
+VOLUME /etc/openvpn
+
+EXPOSE 1194
 ENTRYPOINT ["/bin/bash"]
