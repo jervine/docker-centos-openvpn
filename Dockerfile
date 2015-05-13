@@ -12,5 +12,5 @@ RUN yum clean all
 
 VOLUME /etc/openvpn
 
-EXPOSE 1194
+EXPOSE 1194 1195
 ENTRYPOINT ["/bin/bash"]
